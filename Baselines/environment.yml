@@ -1,0 +1,17 @@
+name: moab
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.1
+  - numpy
+  - pip
+  - tensorboard
+  - pip:
+    - microsoft_bonsai_api
+    - python-dotenv
+    - gym
+    - opencv-python
+    - pygame
+    - stable-baselines3
+    - git+https://github.com/polzounov/stable-baselines3-contrib.git
+    - torch
